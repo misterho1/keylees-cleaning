@@ -56,7 +56,7 @@
       <div class="steps">
         <div class="step">
           <h3>I show up on time</h3>
-          <p>If I'm running even five minutes late, I text. Your time matters as much as mine.</p>
+          <p>If I'm running even five minutes late, I let you know. Your time matters as much as mine.</p>
         </div>
         <div class="step">
           <h3>I do the corners</h3>
@@ -64,7 +64,7 @@
         </div>
         <div class="step">
           <h3>I tell you the price first</h3>
-          <p>Flat quote by text before I start. Never a surprise number at the end.</p>
+          <p>Flat quote by email before I start. Never a surprise number at the end.</p>
         </div>
         <div class="step">
           <h3>I make it right</h3>
@@ -93,11 +93,11 @@
         </div>
         <div>
           <h3 style="font-size: var(--step-2); margin-bottom: var(--space-2xs);">What's the 2-hour guarantee?</h3>
-          <p>If you walk through after I leave and something isn't right, text me within 2 hours and I'll be back to re-clean it free. No questions, no charge. That window keeps things fair for both of us.</p>
+          <p>If you walk through after I leave and something isn't right, email me within 2 hours and I'll be back to re-clean it free. No questions, no charge. That window keeps things fair for both of us.</p>
         </div>
         <div>
           <h3 style="font-size: var(--step-2); margin-bottom: var(--space-2xs);">How do I pay?</h3>
-          <p>Venmo, Cash App, Zelle, or cash. I send a receipt by text after every clean.</p>
+          <p>Venmo, Cash App, Zelle, or cash. I send a receipt by email after every clean.</p>
         </div>
         <div>
           <h3 style="font-size: var(--space-2); margin-bottom: var(--space-2xs);">Are you insured?</h3>
@@ -144,17 +144,15 @@
       <button class="chat-panel__close" aria-label="Close chat">×</button>
     </header>
     <div class="chat-panel__body">
-      <div class="chat-bubble">Hey! Drop your info and what you need cleaned — I'll text or email you back <strong>today</strong> with a flat quote.</div>
+      <div class="chat-bubble">Hey! Drop your info and what you need cleaned — I'll email you back <strong>today</strong> with a flat quote.</div>
       <form class="chat-form" novalidate>
         <div class="chat-form__group"><label class="chat-form__label" for="cname">Your name</label><input class="chat-form__input" type="text" id="cname" name="name" autocomplete="name" required></div>
-        <div class="chat-form__group"><label class="chat-form__label" for="cphone">Phone</label><input class="chat-form__input" type="tel" id="cphone" name="phone" autocomplete="tel" required></div>
-        <div class="chat-form__group"><label class="chat-form__label" for="cemail">Email (optional)</label><input class="chat-form__input" type="email" id="cemail" name="email" autocomplete="email"></div>
+        <div class="chat-form__group"><label class="chat-form__label" for="cemail">Email</label><input class="chat-form__input" type="email" id="cemail" name="email" autocomplete="email" required></div>
         <div class="chat-form__group"><label class="chat-form__label" for="cservice">What kind of clean?</label>
           <select class="chat-form__select" id="cservice" name="service" required>
             <option value="Standard clean">Standard clean</option>
             <option value="Deep clean">Deep clean</option>
             <option value="Move-in / move-out">Move-in / move-out</option>
-            <option value="Airbnb turnover">Airbnb turnover</option>
             <option value="Not sure yet">Not sure yet</option>
           </select>
         </div>

@@ -50,7 +50,7 @@
     wrap.appendChild(document.createElement('br'));
 
     const body = document.createTextNode(
-      "I'll text or email you back today. If it's after 9pm, expect me first thing in the morning."
+      "I'll email you back today. If it's after 9pm, expect a reply first thing in the morning."
     );
     wrap.appendChild(body);
 
@@ -71,7 +71,7 @@
     error.style.fontSize = '0.85rem';
     error.style.marginTop = '0.5rem';
     error.textContent =
-      'Sorry — something went wrong. Please call or text 801-979-8877 directly.';
+      'Sorry — something went wrong. Please email me directly at keylee.to801@yahoo.com.';
     return error;
   }
 
@@ -84,7 +84,6 @@
 
     const data = {
       name: form.querySelector('[name="name"]').value.trim(),
-      phone: form.querySelector('[name="phone"]').value.trim(),
       email: form.querySelector('[name="email"]').value.trim(),
       service: form.querySelector('[name="service"]').value,
       message: form.querySelector('[name="message"]').value.trim(),

@@ -34,7 +34,7 @@
   <section class="section">
     <div class="container container--sm">
       <span class="eyebrow">Get a free quote</span>
-      <h1 style="margin-bottom: var(--space-m);">Tell me about your place. <em class="display-serif" style="color: var(--accent);">I'll text you a flat price today.</em></h1>
+      <h1 style="margin-bottom: var(--space-m);">Tell me about your place. <em class="display-serif" style="color: var(--accent);">I'll email you a flat price today.</em></h1>
       <p style="margin-bottom: var(--space-xl);">Drop your info below — or open the chat in the corner. Either way, same-day reply, every day. Real person on the other end.</p>
 
       <form class="form" action="https://formsubmit.co/keylee.to801@yahoo.com" method="POST">
@@ -51,14 +51,9 @@
             <input class="form__input" type="text" id="name" name="name" autocomplete="name" required>
           </div>
           <div class="form__field">
-            <label class="form__label" for="phone">Phone</label>
-            <input class="form__input" type="tel" id="phone" name="phone" autocomplete="tel" required>
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" id="email" name="email" autocomplete="email" required>
           </div>
-        </div>
-
-        <div class="form__field">
-          <label class="form__label" for="email">Email <span style="color: var(--ink-muted); text-transform: none; letter-spacing: 0;">(optional)</span></label>
-          <input class="form__input" type="email" id="email" name="email" autocomplete="email">
         </div>
 
         <div class="form__row">
@@ -68,7 +63,6 @@
               <option value="Standard clean">Standard clean</option>
               <option value="Deep clean">Deep clean</option>
               <option value="Move-in / move-out">Move-in / move-out</option>
-              <option value="Airbnb turnover">Airbnb turnover</option>
               <option value="Not sure yet">Not sure yet — help me pick</option>
             </select>
           </div>
@@ -86,7 +80,7 @@
         <button class="btn btn--primary btn--lg btn-arrow" type="submit">Send to Keylee</button>
 
         <p style="font-size: var(--step--1); color: var(--ink-muted); margin-top: var(--space-s);">
-          I'll text you back today. No spam, no auto-replies, no third-party calls — just me.
+          I'll email you back today. No spam, no auto-replies, no third-party calls — just me.
         </p>
       </form>
     </div>
@@ -95,7 +89,7 @@
   <section class="section section--cream section--tight">
     <div class="container container--sm" style="text-align:center;">
       <span class="eyebrow eyebrow--sage">Or reach me directly</span>
-      <h2 style="margin-bottom: var(--space-l);">Prefer email or text?</h2>
+      <h2 style="margin-bottom: var(--space-l);">Prefer email?</h2>
       <div style="display: flex; gap: var(--space-m); justify-content: center; flex-wrap: wrap;">
         <a class="btn btn--ghost btn-arrow" href="mailto:keylee.to801@yahoo.com">keylee.to801@yahoo.com</a>
       </div>
@@ -131,17 +125,15 @@
       <button class="chat-panel__close" aria-label="Close chat">×</button>
     </header>
     <div class="chat-panel__body">
-      <div class="chat-bubble">Hey! Drop your info and what you need cleaned — I'll text or email you back <strong>today</strong> with a flat quote.</div>
+      <div class="chat-bubble">Hey! Drop your info and what you need cleaned — I'll email you back <strong>today</strong> with a flat quote.</div>
       <form class="chat-form" novalidate>
         <div class="chat-form__group"><label class="chat-form__label" for="cname">Your name</label><input class="chat-form__input" type="text" id="cname" name="name" autocomplete="name" required></div>
-        <div class="chat-form__group"><label class="chat-form__label" for="cphone">Phone</label><input class="chat-form__input" type="tel" id="cphone" name="phone" autocomplete="tel" required></div>
-        <div class="chat-form__group"><label class="chat-form__label" for="cemail">Email (optional)</label><input class="chat-form__input" type="email" id="cemail" name="email" autocomplete="email"></div>
+        <div class="chat-form__group"><label class="chat-form__label" for="cemail">Email</label><input class="chat-form__input" type="email" id="cemail" name="email" autocomplete="email" required></div>
         <div class="chat-form__group"><label class="chat-form__label" for="cservice">What kind of clean?</label>
           <select class="chat-form__select" id="cservice" name="service" required>
             <option value="Standard clean">Standard clean</option>
             <option value="Deep clean">Deep clean</option>
             <option value="Move-in / move-out">Move-in / move-out</option>
-            <option value="Airbnb turnover">Airbnb turnover</option>
             <option value="Not sure yet">Not sure yet</option>
           </select>
         </div>

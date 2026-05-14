@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Services & Pricing — Keylee's Cleaning Service</title>
-  <meta name="description" content="Flat-rate pricing for standard cleans, deep cleans, move-in/move-out, and Airbnb turnover. Tooele and Salt Lake County, Utah.">
+  <meta name="description" content="Flat-rate pricing for residential cleaning — standard, deep, and move-in/move-out. Tooele and Salt Lake County, Utah.">
   <meta name="theme-color" content="#F5EFE6">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23B85540'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-style='italic' font-size='18' fill='%23FCFAF5' text-anchor='middle'%3EK%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +35,7 @@
     <div class="container container--sm" style="text-align:center;">
       <span class="eyebrow">Services & flat-rate pricing</span>
       <h1 style="margin-bottom: var(--space-m);">Honest prices. No surprises.</h1>
-      <p style="margin-inline:auto;">Every quote is a flat price you confirm by text before I show up. If your place is bigger or rougher than expected, I'll tell you before I start — never at the end.</p>
+      <p style="margin-inline:auto;">Every quote is a flat price you confirm by email before I show up. If your place is bigger or rougher than expected, I'll tell you before I start — never at the end.</p>
     </div>
   </section>
 
@@ -98,29 +98,11 @@
           </ul>
         </article>
 
-        <article class="service-card">
-          <div class="service-card__icon" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 8 H20 V18 H4 Z M4 12 H20 M9 8 V18 M15 8 V18"/></svg>
-          </div>
-          <h3 class="service-card__title">Airbnb turnover</h3>
-          <span class="service-card__price">From $95 · ~90 min · Same-day available</span>
-          <p>For short-term rental hosts. Quick, photo-documented, ready for the next guest.</p>
-          <ul class="service-card__list">
-            <li>Full unit reset between guests</li>
-            <li>Linens & towels swapped, beds remade</li>
-            <li>Bathroom restocked (you provide supplies)</li>
-            <li>Kitchen reset — dishwasher run, counters wiped</li>
-            <li>Trash out, vacuum, mop</li>
-            <li>Photo confirmation when complete</li>
-            <li>10% recurring discount after first booking</li>
-          </ul>
-        </article>
-
       </div>
 
       <p style="text-align:center; margin-top: var(--space-2xl); color: var(--ink-muted); font-size: var(--step--1);">
         Prices start at the listed rates and adjust for square footage, condition, and add-ons.<br>
-        Final flat price confirmed by text before I show up — never at the end.
+        Final flat price confirmed by email before I show up — never at the end.
       </p>
     </div>
   </section>
@@ -154,7 +136,7 @@
     <div class="container">
       <div class="guarantee">
         <div class="guarantee__seal">The Keylee Guarantee</div>
-        <h2>Not 100% happy? <em class="display-serif">Text me within 2 hours.</em></h2>
+        <h2>Not 100% happy? <em class="display-serif">Email me within 2 hours.</em></h2>
         <p>I come back and re-clean — free. No questions, no charge, no awkwardness. That's how I'd want it if I were the one paying.</p>
         <a class="btn btn--ghost-light btn-arrow" href="contact.html">Book your first clean</a>
       </div>
@@ -216,17 +198,15 @@
       <button class="chat-panel__close" aria-label="Close chat">×</button>
     </header>
     <div class="chat-panel__body">
-      <div class="chat-bubble">Hey! Drop your info and what you need cleaned — I'll text or email you back <strong>today</strong> with a flat quote.</div>
+      <div class="chat-bubble">Hey! Drop your info and what you need cleaned — I'll email you back <strong>today</strong> with a flat quote.</div>
       <form class="chat-form" novalidate>
         <div class="chat-form__group"><label class="chat-form__label" for="cname">Your name</label><input class="chat-form__input" type="text" id="cname" name="name" autocomplete="name" required></div>
-        <div class="chat-form__group"><label class="chat-form__label" for="cphone">Phone</label><input class="chat-form__input" type="tel" id="cphone" name="phone" autocomplete="tel" required></div>
-        <div class="chat-form__group"><label class="chat-form__label" for="cemail">Email (optional)</label><input class="chat-form__input" type="email" id="cemail" name="email" autocomplete="email"></div>
+        <div class="chat-form__group"><label class="chat-form__label" for="cemail">Email</label><input class="chat-form__input" type="email" id="cemail" name="email" autocomplete="email" required></div>
         <div class="chat-form__group"><label class="chat-form__label" for="cservice">What kind of clean?</label>
           <select class="chat-form__select" id="cservice" name="service" required>
             <option value="Standard clean">Standard clean</option>
             <option value="Deep clean">Deep clean</option>
             <option value="Move-in / move-out">Move-in / move-out</option>
-            <option value="Airbnb turnover">Airbnb turnover</option>
             <option value="Not sure yet">Not sure yet</option>
           </select>
         </div>
