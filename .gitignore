@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Agent / build / temp
+node_modules/
+dist/
+.cache/
+.wrangler/
+.claude/
+*.log

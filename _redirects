@@ -1,0 +1,9 @@
+# Cloudflare Pages redirects — keylees-cleaning
+# Format: source destination status
+
+/home              /            301
+/services          /services.html  301
+/about             /about.html     301
+/contact           /contact.html   301
+/quote             /contact.html   301
+/book              /contact.html   301
